@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <title>Little Lemon</title>
+  <meta charset="utf-8">
+  <meta property="og:locale" content="en_US">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="project.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="header"> 
+            <img src="Little-Lemon-logos/Asset 16@4x.png" alt="Little-Lemon-logo"> 
+        </header>
+        <nav class="nav"> 
+            <ul>
+                <li><a href="project.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="reserve.html">Reservations</a></li>
+                <li><a href="about.html">About</a></li>
+          </ul>
+        </nav>
+        <main>
+            <form>
+              <div>
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email">
+              </div>
+              <div>
+                <label for="booking_date">Date :</label>
+                <input type="date" id="booking_date" name="booking_date">
+              </div>
+              <div>
+                <label for="party_size">Number of People :</label>
+                <input type="number" id="party_size" name="party_size" min="1" max="8">
+              </div>
+              <div>
+                <label for="agreement">I agree to the cancellation policy</label>
+                <input type="checkbox" id="agreement" name="agreement" required>
+              </div>
+              <button type="submit">Book Now</button>
+            </form>
+          </main>
+        <footer class="footer">
+            <div>
+                <img src="Little-Lemon-logos/Asset 16@4x.png" alt="Little-Lemon-logo">
+            </div>
+            <div>
+                Copyright @ Klinge 2023
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
